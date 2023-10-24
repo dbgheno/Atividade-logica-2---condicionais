@@ -4,7 +4,7 @@ const celsius = Number(prompt("Digite a temperatura em graus Celsius:"))
 
 const fahrenheit = (celsius * 9 / 5) + 32
 
-document.write(`1. A temperatura ${celsius} em Celsius equivale a ${fahrenheit.toFixed(1)} em Fahrenheit<br><br>`)
+document.write(`1. A temperatura ${celsius} em Celsius equivale a ${fahrenheit.toFixed(1)} em Fahrenheit.<br><br>`)
 
 
 
@@ -24,7 +24,7 @@ switch (numeroDia) {
     default: nomeDia= "Dia invalido, digite um número de 1 a 7"; break;
 }
 
-document.write(`2. O dia da semana respectivo ao número ${numeroDia} é ${nomeDia}<br><br>`)
+document.write(`2. O dia da semana respectivo ao número ${numeroDia} é ${nomeDia}.<br><br>`)
 
 
 
@@ -34,11 +34,11 @@ const numeroInteiro = Number(prompt("Digite um número inteiro: "))
 let positivoNegativo
 
 if (numeroInteiro > 0) {
-    positivoNegativo = "O número é positivo" 
+    positivoNegativo = "O número é positivo." 
 } else if (numeroInteiro < 0) {
-    positiovNegativo = "O número é negativo"
+    positiovNegativo = "O número é negativo."
 } else {
-    positivoNegativo = "O número é 0"
+    positivoNegativo = "O número é 0."
 }
 
 document.write(`3. ${positivoNegativo}<br><br>`)
@@ -52,7 +52,7 @@ const percentualDistribuidor = custoDeFabrica * 0.28
 const impostos = custoDeFabrica * 0.45
 
 const custoFinal = custoDeFabrica + percentualDistribuidor + impostos
-document.write(`4. O custo final do carro fica em R$ ${custoFinal.toFixed(2).replace(".",",")}<br><br>`)
+document.write(`4. O custo final do carro fica em R$ ${custoFinal.toFixed(2).replace(".",",")}.<br><br>`)
 
 
 
@@ -88,7 +88,7 @@ if (operador == "+") {
 } else if (operador == "/") {
     resultado = num1 / num2
 } else {
-    resultado = "operador Inválido"
+    resultado = "inválido, pois você precisa utilizar um destes operadores: +, -, * ou /"
 }
 document.write(`6. O resultado da sua operação é ${resultado}.<br><br>`)
 
